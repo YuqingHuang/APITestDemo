@@ -1,0 +1,10 @@
+{"level":"info","message":"[mb:2525] mountebank v1.5.0-beta.1071 now taking orders - point your browser to http://localhost:2525 for help","timestamp":"2016-02-28T16:15:08.492Z"}
+{"level":"info","message":"[mb:2525] GET /imposters","timestamp":"2016-02-28T16:26:21.674Z"}
+{"level":"info","message":"[mb:2525] GET /imposters","timestamp":"2016-02-28T16:27:17.161Z"}
+{"level":"info","message":"[mb:2525] GET /imposters","timestamp":"2016-02-28T16:27:28.084Z"}
+{"level":"info","message":"[mb:2525] GET /imposters","timestamp":"2016-02-28T16:27:30.043Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:28:57.968Z"}
+{"level":"info","message":"[http:4546] Open for business...","timestamp":"2016-02-28T16:28:57.975Z"}
+{"level":"info","message":"[http:4546] 127.0.0.1:57937 => GET /bike/123","timestamp":"2016-02-28T16:29:22.051Z"}
+{"level":"info","message":"[http:4546] 127.0.0.1:57939 => GET /favicon.ico","timestamp":"2016-02-28T16:29:22.683Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2016-02-28T16:40:12.919Z"}

@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DemoAPI.h"
 
 @interface DemoService : NSObject
+
+@property(nonatomic, strong) DemoAPI *api;
+
+- (instancetype)initWithAPI:(DemoAPI *)api;
+- (void)getWeatherInfo;
 
 @end

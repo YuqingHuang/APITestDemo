@@ -15,7 +15,6 @@
 - (void)getWeatherInfoWithSuccessHandle:(void (^)(NSURLSessionDataTask *task, id responseObject))successHandle
                           failureHandle:(void (^)(NSURLSessionDataTask *task, NSError *error))failureHandle {
     NSString *subURL = @"data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98";
-            NSLog(@"1");
     [[AFNetworkingClient sharedClient] GET:subURL parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         successHandle(task, responseObject);
         

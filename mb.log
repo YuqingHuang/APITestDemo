@@ -1,2 +1,61 @@
-{"level":"info","message":"[mb:2525] mountebank v1.5.0-beta.1071 now taking orders - point your browser to http://localhost:2525 for help","timestamp":"2016-02-28T13:26:42.965Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2016-02-28T13:27:21.583Z"}
+{"level":"info","message":"[mb:2525] mountebank v1.5.0-beta.1071 now taking orders - point your browser to http://localhost:2525 for help","timestamp":"2016-02-28T16:40:23.829Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:41:34.132Z"}
+{"level":"info","message":"[http:4546 Proxy_Once] Open for business...","timestamp":"2016-02-28T16:41:34.144Z"}
+{"level":"info","message":"[http:4546 Proxy_Once] 127.0.0.1:58108 => GET /bike/123","timestamp":"2016-02-28T16:42:05.736Z"}
+{"level":"error","message":"[http:4546 Proxy_Once] 127.0.0.1:58108 X=> {\"code\":\"invalid proxy\",\"message\":\"Unable to connect to \\\"http://localhost:7575\\\"\",\"name\":\"Error\",\"stack\":\"Error\\n    at Object.from (/usr/local/lib/node_modules/mountebank/src/util/inherit.js:15:17)\\n    at Object.InvalidProxyError (/usr/local/lib/node_modules/mountebank/src/util/errors.js:13:30)\\n    at ClientRequest.<anonymous> (/usr/local/lib/node_modules/mountebank/src/models/http/httpProxy.js:153:40)\\n    at ClientRequest.g (events.js:180:16)\\n    at ClientRequest.emit (events.js:95:17)\\n    at Socket.socketErrorListener (http.js:1551:9)\\n    at Socket.emit (events.js:95:17)\\n    at net.js:440:14\\n    at process._tickDomainCallback (node.js:463:13)\"}","timestamp":"2016-02-28T16:42:05.745Z"}
+{"level":"info","message":"[http:4546 Proxy_Once] 127.0.0.1:58108 => GET /favicon.ico","timestamp":"2016-02-28T16:42:06.182Z"}
+{"level":"error","message":"[http:4546 Proxy_Once] 127.0.0.1:58108 X=> {\"code\":\"invalid proxy\",\"message\":\"Unable to connect to \\\"http://localhost:7575\\\"\",\"name\":\"Error\",\"stack\":\"Error\\n    at Object.from (/usr/local/lib/node_modules/mountebank/src/util/inherit.js:15:17)\\n    at Object.InvalidProxyError (/usr/local/lib/node_modules/mountebank/src/util/errors.js:13:30)\\n    at ClientRequest.<anonymous> (/usr/local/lib/node_modules/mountebank/src/models/http/httpProxy.js:153:40)\\n    at ClientRequest.g (events.js:180:16)\\n    at ClientRequest.emit (events.js:95:17)\\n    at Socket.socketErrorListener (http.js:1551:9)\\n    at Socket.emit (events.js:95:17)\\n    at net.js:440:14\\n    at process._tickDomainCallback (node.js:463:13)\"}","timestamp":"2016-02-28T16:42:06.185Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:43:26.283Z"}
+{"level":"warn","message":"[mb:2525] error creating imposter: {\"code\":\"resource conflict\",\"message\":\"The port is already in use\",\"name\":\"Error\",\"stack\":\"Error\\n    at Object.from (/usr/local/lib/node_modules/mountebank/src/util/inherit.js:15:17)\\n    at Object.ResourceConflictError (/usr/local/lib/node_modules/mountebank/src/util/errors.js:13:30)\\n    at Domain.errorHandler (/usr/local/lib/node_modules/mountebank/src/models/imposter.js:19:36)\\n    at Domain.emit (events.js:95:17)\\n    at Server.emit (events.js:70:21)\\n    at net.js:1046:12\\n    at process._tickDomainCallback (node.js:463:13)\"}","timestamp":"2016-02-28T16:43:26.286Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:43:48.916Z"}
+{"level":"warn","message":"[mb:2525] error creating imposter: {\"code\":\"resource conflict\",\"message\":\"The port is already in use\",\"name\":\"Error\",\"stack\":\"Error\\n    at Object.from (/usr/local/lib/node_modules/mountebank/src/util/inherit.js:15:17)\\n    at Object.ResourceConflictError (/usr/local/lib/node_modules/mountebank/src/util/errors.js:13:30)\\n    at Domain.errorHandler (/usr/local/lib/node_modules/mountebank/src/models/imposter.js:19:36)\\n    at Domain.emit (events.js:95:17)\\n    at Server.emit (events.js:70:21)\\n    at net.js:1046:12\\n    at process._tickDomainCallback (node.js:463:13)\"}","timestamp":"2016-02-28T16:43:48.920Z"}
+{"level":"info","message":"[http:4546 Proxy_Once] Ciao for now","timestamp":"2016-02-28T16:44:03.058Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:44:11.506Z"}
+{"level":"info","message":"[http:4546 Proxy_Weather] Open for business...","timestamp":"2016-02-28T16:44:11.508Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:46:35.668Z"}
+{"level":"warn","message":"[mb:2525] error creating imposter: {\"code\":\"resource conflict\",\"message\":\"The port is already in use\",\"name\":\"Error\",\"stack\":\"Error\\n    at Object.from (/usr/local/lib/node_modules/mountebank/src/util/inherit.js:15:17)\\n    at Object.ResourceConflictError (/usr/local/lib/node_modules/mountebank/src/util/errors.js:13:30)\\n    at Domain.errorHandler (/usr/local/lib/node_modules/mountebank/src/models/imposter.js:19:36)\\n    at Domain.emit (events.js:95:17)\\n    at Server.emit (events.js:70:21)\\n    at net.js:1046:12\\n    at process._tickDomainCallback (node.js:463:13)\"}","timestamp":"2016-02-28T16:46:35.670Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:46:49.198Z"}
+{"level":"info","message":"[http:4545 Simple_one] Open for business...","timestamp":"2016-02-28T16:46:49.199Z"}
+{"level":"info","message":"[http:4545 Simple_one] Ciao for now","timestamp":"2016-02-28T16:47:49.695Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:47:52.733Z"}
+{"level":"info","message":"[http:4545 Simple_one] Open for business...","timestamp":"2016-02-28T16:47:52.736Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58223 => GET /bike/456","timestamp":"2016-02-28T16:48:08.799Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58225 => GET /favicon.ico","timestamp":"2016-02-28T16:48:09.316Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58232 => GET /bike/123","timestamp":"2016-02-28T16:48:18.796Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58236 => GET /favicon.ico","timestamp":"2016-02-28T16:48:19.249Z"}
+{"level":"info","message":"[http:4545 Simple_one] Ciao for now","timestamp":"2016-02-28T16:49:17.912Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:49:20.787Z"}
+{"level":"info","message":"[http:4545 Simple_one] Open for business...","timestamp":"2016-02-28T16:49:20.790Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58246 => GET /bike/456","timestamp":"2016-02-28T16:49:38.961Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58249 => GET /favicon.ico","timestamp":"2016-02-28T16:49:39.497Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58255 => GET /bike/999","timestamp":"2016-02-28T16:50:03.501Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58258 => GET /favicon.ico","timestamp":"2016-02-28T16:50:03.877Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:50:32.150Z"}
+{"level":"warn","message":"[mb:2525] error creating imposter: {\"code\":\"resource conflict\",\"message\":\"The port is already in use\",\"name\":\"Error\",\"stack\":\"Error\\n    at Object.from (/usr/local/lib/node_modules/mountebank/src/util/inherit.js:15:17)\\n    at Object.ResourceConflictError (/usr/local/lib/node_modules/mountebank/src/util/errors.js:13:30)\\n    at Domain.errorHandler (/usr/local/lib/node_modules/mountebank/src/models/imposter.js:19:36)\\n    at Domain.emit (events.js:95:17)\\n    at Server.emit (events.js:70:21)\\n    at net.js:1046:12\\n    at process._tickDomainCallback (node.js:463:13)\"}","timestamp":"2016-02-28T16:50:32.152Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:50:50.626Z"}
+{"level":"info","message":"[http:4549 Simple_one] Open for business...","timestamp":"2016-02-28T16:50:50.629Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58263 => GET /car/999","timestamp":"2016-02-28T16:51:14.378Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58266 => GET /favicon.ico","timestamp":"2016-02-28T16:51:14.762Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58267 => GET /car/456","timestamp":"2016-02-28T16:51:22.156Z"}
+{"level":"info","message":"[http:4545 Simple_one] 127.0.0.1:58270 => GET /favicon.ico","timestamp":"2016-02-28T16:51:22.480Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T16:55:35.290Z"}
+{"level":"info","message":"[http:4543 Weather] Open for business...","timestamp":"2016-02-28T16:55:35.291Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58307 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T16:56:30.639Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58312 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T16:57:07.918Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58314 => GET /favicon.ico","timestamp":"2016-02-28T16:57:08.433Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58326 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T16:57:35.958Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58362 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T16:59:50.300Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58363 => GET /favicon.ico","timestamp":"2016-02-28T16:59:50.733Z"}
+{"level":"info","message":"[http:4543 Weather] Ciao for now","timestamp":"2016-02-28T17:01:14.665Z"}
+{"level":"info","message":"[http:4545 Simple_one] Ciao for now","timestamp":"2016-02-28T17:01:17.550Z"}
+{"level":"info","message":"[http:4549 Simple_one] Ciao for now","timestamp":"2016-02-28T17:01:19.349Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2016-02-28T17:01:24.703Z"}
+{"level":"info","message":"[http:4543 Weather] Open for business...","timestamp":"2016-02-28T17:01:24.705Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58386 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T17:01:29.342Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58389 => GET /favicon.ico","timestamp":"2016-02-28T17:01:29.752Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:58399 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T17:01:41.938Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:59195 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T17:18:59.850Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:59214 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T17:21:55.305Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:59221 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T17:22:51.182Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:59228 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T17:23:39.952Z"}
+{"level":"info","message":"[http:4546 Proxy_Weather] Ciao for now","timestamp":"2016-02-28T17:54:01.615Z"}
