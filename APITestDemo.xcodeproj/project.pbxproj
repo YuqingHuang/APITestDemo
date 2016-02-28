@@ -20,7 +20,6 @@
 		49827AA01C82CECC0034A3A0 /* DemoService_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49827A9F1C82CECC0034A3A0 /* DemoService_Swift.swift */; };
 		49827AA21C82D1800034A3A0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49827AA11C82D1800034A3A0 /* Test.swift */; };
 		7B94D14054D419239C5A7921 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CD1D19D0DEC64F4BADA9FA /* libPods.a */; };
-		FB6F9C61FF635C2B89EFE51B /* libPods-APITestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D1AA811AC4E6136C1783C3 /* libPods-APITestDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +57,7 @@
 		49827A9F1C82CECC0034A3A0 /* DemoService_Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoService_Swift.swift; sourceTree = "<group>"; };
 		49827AA11C82D1800034A3A0 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		7CDE4BC46EBBC8F6D47AF839 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A0AA3A25287B53011EC2A309 /* Pods.mockserver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.mockserver.xcconfig; path = "Pods/Target Support Files/Pods/Pods.mockserver.xcconfig"; sourceTree = "<group>"; };
 		B4088679D7B169840183268F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E7D1AA811AC4E6136C1783C3 /* libPods-APITestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APITestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CD1D19D0DEC64F4BADA9FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +70,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B94D14054D419239C5A7921 /* libPods.a in Frameworks */,
-				FB6F9C61FF635C2B89EFE51B /* libPods-APITestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +168,7 @@
 				B4088679D7B169840183268F /* Pods.release.xcconfig */,
 				FCC3AEE75E1E3D44A74F680D /* Pods-APITestDemo.debug.xcconfig */,
 				02B94BDABC17D0EBF587AC9C /* Pods-APITestDemo.release.xcconfig */,
+				A0AA3A25287B53011EC2A309 /* Pods.mockserver.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APITestDemo/Pods-APITestDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		63B25A40256E43333F56E5CC /* Check Pods Manifest.lock */ = {
@@ -323,7 +323,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APITestDemo/Pods-APITestDemo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -470,7 +470,7 @@
 		};
 		49827A861C81FA980034A3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCC3AEE75E1E3D44A74F680D /* Pods-APITestDemo.debug.xcconfig */;
+			baseConfigurationReference = 7CDE4BC46EBBC8F6D47AF839 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -485,7 +485,7 @@
 		};
 		49827A871C81FA980034A3A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02B94BDABC17D0EBF587AC9C /* Pods-APITestDemo.release.xcconfig */;
+			baseConfigurationReference = B4088679D7B169840183268F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -499,7 +499,7 @@
 		};
 		49827A891C81FA980034A3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCC3AEE75E1E3D44A74F680D /* Pods-APITestDemo.debug.xcconfig */;
+			baseConfigurationReference = 7CDE4BC46EBBC8F6D47AF839 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = APITestDemoTests/Info.plist;
@@ -522,6 +522,80 @@
 			};
 			name = Release;
 		};
+		49827AA61C8321A00034A3A0 /* MockServer */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_BASE_URL = "http://api.openweathermap.org/Test";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = APITestDemo;
+				SDKROOT = iphoneos;
+			};
+			name = MockServer;
+		};
+		49827AA71C8321A00034A3A0 /* MockServer */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AA3A25287B53011EC2A309 /* Pods.mockserver.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = APITestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQ.APITestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "APITestDemo/APITestDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = MockServer;
+		};
+		49827AA81C8321A00034A3A0 /* MockServer */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AA3A25287B53011EC2A309 /* Pods.mockserver.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = APITestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQ.APITestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APITestDemo.app/APITestDemo";
+			};
+			name = MockServer;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,6 +603,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49827A831C81FA980034A3A0 /* Debug */,
+				49827AA61C8321A00034A3A0 /* MockServer */,
 				49827A841C81FA980034A3A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -538,6 +613,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49827A861C81FA980034A3A0 /* Debug */,
+				49827AA71C8321A00034A3A0 /* MockServer */,
 				49827A871C81FA980034A3A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -547,6 +623,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49827A891C81FA980034A3A0 /* Debug */,
+				49827AA81C8321A00034A3A0 /* MockServer */,
 				49827A8A1C81FA980034A3A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
