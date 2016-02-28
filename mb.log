@@ -59,3 +59,6 @@
 {"level":"info","message":"[http:4543 Weather] 127.0.0.1:59221 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T17:22:51.182Z"}
 {"level":"info","message":"[http:4543 Weather] 127.0.0.1:59228 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T17:23:39.952Z"}
 {"level":"info","message":"[http:4546 Proxy_Weather] Ciao for now","timestamp":"2016-02-28T17:54:01.615Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:60284 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T18:18:52.241Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:60286 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T18:18:52.260Z"}
+{"level":"info","message":"[http:4543 Weather] 127.0.0.1:60307 => GET /data/2.5/weather?lat=35&lon=139&appid=44db6a862fba0b067b1930da0d769e98","timestamp":"2016-02-28T18:19:18.531Z"}
