@@ -12,6 +12,7 @@
 
 + (instancetype)sharedClient {
     NSString * const APIBaseURLString = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"API_Base_URL"];
+    NSLog(APIBaseURLString);
     
     static AFNetworkingClient *_sharedClient = nil;
     static dispatch_once_t onceToken;
